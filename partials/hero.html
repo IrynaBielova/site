@@ -1,0 +1,61 @@
+<section class="hero">
+    <div class="container">            
+    <h1 class="hero-title__title">Подбайте про своє тіло,<br>щоб душі захотілося в ньому жити</h1>
+    <button class="btn__hero-btn" 
+    type="button" 
+    data-modal-open>
+    Замовити консультацію
+    </button>
+    </div>
+</section>
+
+
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal-window">
+        <button type="button" class="modal-window__modal-close" data-modal-close>
+            <!-- <svg class="modal-close-icon" wight="18" height="18">
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg> -->
+        </button>
+<p class="modal-window__modal-title">
+    Замовити консультацію
+</p>
+<form action="#" class="modal-input__modal-form">
+    <div class="modal-input__modal-field">
+        <label class="modal-input__form-input-text" for="user-name">Ім'я
+        </label>
+        <div class="modal-input__input-wrap">
+            <input type="text" id="user-name" name="user-name" class="modal-input__modal-form-input" required minlength="2"
+                placeholder="" />
+            <!-- <svg class="input-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-person"></use>
+            </svg> -->
+        </div>
+    </div>
+    <div class="modal-input__modal-field">
+        <label for="user-email" class="modal-input__form-input-text">Пошта</label>
+        <div class="modal-input__input-wrap">
+            <input type="email" id="user-email" name="user-email" class="modal-input__modal-form-input" placeholder="" />
+            <!-- <svg class="input-icon" width="13" height="13">
+                <use href="./images/icons.svg#icon-tel"></use>
+            </svg> -->
+        </div>
+    </div>
+    <div class="modal-input__modal-field">
+        <label for="user-tel" class="modal-input__form-input-text">Телефон</label>
+        <div class="modal-input__input-wrap">
+            <input type="tel" name="user-tel" id="user-tel" class="modal-input__modal-form-input" placeholder=""
+                required />
+            <!-- <svg class="input-icon" width="15" height="12">
+                <use href="./images/icons.svg#icon-mail1"></use>
+            </svg> -->
+        </div>
+    </div>
+    <div class="modal-input__modal-last-field">
+        <label for="user-text" class="modal-input__form-input-text">Коментар</label>
+        <textarea name="user-text" id="user-text" class="modal-input__modal-form-text" placeholder="Введите текст"></textarea>
+    </div>
+    <button type="submit" class="button__modal-btn">Отправить</button>
+</form>
+</div>
+</div>

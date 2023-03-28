@@ -1,0 +1,96 @@
+.hero{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    @media screen and (min-width: 768px){
+    padding-top: 120px;
+    padding-bottom: 120px;
+    }
+    @media screen and (min-width: 480px){
+      padding-top: 50px;
+      padding-bottom: 50px;
+      }
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1600px;
+  
+    background-color: var(--main-bg-color);
+    @media screen and (min-width: 480px){
+    background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)), 
+    url('/src/images/hero/massage.jpg');
+    }
+      @media screen and (min-width: 768px) {
+    background-image: 
+    linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)), 
+    url('/src/images/hero/massage.jpg');
+      }
+      @media screen and (min-width: 1200px)  {
+              padding-top: 200px;
+              padding-bottom: 200px;
+  background-image: 
+  linear-gradient(
+  rgba(47, 48, 58, 0.4),
+  rgba(47, 48, 58, 0.4)), 
+  url('/src/images/hero/massage.jpg');
+      }}
+
+  
+  .hero-title__title{
+  font-size: 44px;
+  line-height: 1.61;  
+  font-weight: 900;
+  font-style: italic;
+  font-family: 𝓯𝓪𝓷𝓬𝔂 𝓽𝓮𝔁𝓽;
+  text-align: center;
+  letter-spacing: 0.06em;
+//   @media screen and (min-width: 1200px){
+//   font-size: 44px;
+//   }
+  @media screen and (max-width: 1199px){
+    font-size: 32px;
+    }
+  @media screen and (max-width: 767px){
+      margin-bottom: 30px;
+      font-size: 22px;
+  }
+  margin-bottom: 45px;
+  color: $text-main-color;
+  text-shadow:2px 2px 4px #000000;
+  }
+  
+  .btn__hero-btn{
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  padding: 10px;
+  border: solid 2px;
+  border-radius: 40;
+  color: $text-black-color;  
+  text-shadow: 0px 2px 2px #fcddb7;
+ box-shadow: 1px 2px 4px 4px #fcddb7;
+ &:hover,
+&:focus,
+.current{
+  color: $text-black-color;
+  background-color: $accent-darker-color;
+  box-shadow: $shadow-hover;
+  };
+  @media screen and (max-width: 1199px){
+    font-size: 14px;
+};
+@media screen and (max-width: 767px){
+    font-size: 12px;
+};
+  }

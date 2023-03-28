@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 1024px;
+  }
+}
+
+.container_card {
+  display: flex;
+  justify-content: center;
+}

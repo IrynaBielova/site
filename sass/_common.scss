@@ -1,0 +1,24 @@
+// utils
+@import './utils/is-hidden';
+@import './utils/variables';
+@import './utils/normalize';
+@import './utils/container';
+@import './utils/reset';
+@import './utils/title';
+
+// @import '../../node_modules/modern-normalize/modern-normalize.css';
+// @import '../../node_modules/nprogress/nprogress.css';
+
+// @import '../../node_modules/animate.css/animate.css';
+
+
+@import './loyout/header';
+@import './loyout/footer';
+
+@import './components/hero';
+@import './components/modal';
+@import './components/about';
+@import './components/services';
+@import './components/studio';
+@import './components/corporate';
+
